@@ -11,6 +11,13 @@
   </head>
 
   <body>
+    <div class="container">
+      Navbar
+    </div>
+    <div>
+    <p><%= link_to('About', about_path, class: 'link-text') %></p>
+    <p><%= link_to('Contact', contact_path, class: 'link-text') %></p>
+    </div>
     <%= yield %>
   </body>
 </html>

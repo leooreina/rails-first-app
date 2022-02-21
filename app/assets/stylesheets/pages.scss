@@ -1,0 +1,11 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.link-text {
+  color: rgb(255, 143, 143);
+  text-decoration: none;
+  &:hover {
+    color: rgb(110, 110, 252);
+  }
+}
